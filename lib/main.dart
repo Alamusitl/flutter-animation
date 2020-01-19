@@ -1,3 +1,4 @@
+import 'package:animation/animated_list.dart';
 import 'package:animation/bezier.dart';
 import 'package:animation/clap.dart';
 import 'package:animation/like.dart';
@@ -44,6 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
     'Pie animation': (context) => TestPie(),
     'Transition animation': (context) => Transition(),
     'Bezier animation': (context) => Bezier(),
+    'Animated List': (context) => AnimatedListSample(),
   };
 
   @override
